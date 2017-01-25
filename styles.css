@@ -1,0 +1,90 @@
+body {
+  width: 100%;
+  -webkit-user-select: none;
+}
+
+button.start-game {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 400px;
+  font-size: 2em;
+}
+
+main.game-area {
+  margin: auto;
+  width: 800px;
+  height: 800px;
+  background:url(space_scene.png) #669999;
+  background-size: 800px 800px;
+  text-align: center;
+  z-index: -1;
+}
+
+div.where-bubbles-fall {
+  margin: auto;
+  width: 800px;
+  height: 100px;
+  background-color: black;
+}
+
+div.scores {
+  width:200px;
+  float: left;
+}
+
+h2.score-counter {
+  color: white;
+  font-size: 3em;
+  font-family: Impact, Charcoal, sans-serif;
+  z-index: 200;
+  margin-left:25px;
+}
+
+.bubble {
+  top:0px;
+  left:0px;
+  margin: auto;
+  z-index:1;
+  position: absolute;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 50%;
+  border:solid 5px;
+}
+
+.small {
+  width:50px;
+  height:50px;
+}
+
+.large{
+  width: 75px;
+  height: 75px;
+}
+
+.lives {
+  width:30;
+  border-right:1px solid gray;
+  border-left:1px solid gray;
+  height:20;
+  background-color:#FF3333;
+  float: right;
+  margin-top: 63px;
+}
+
+h2.lives-label {
+  color: white;
+  font-size: 3em;
+  font-family: Impact, Charcoal, sans-serif;
+  float: left;
+  margin-left: 190px;
+}
+
+div.stop-watch {
+  color: white;
+  font-size: 3em;
+  font-family: Impact, Charcoal, sans-serif;
+  clear: both;
+  padding-top: 600px;
+  padding-right: 600px;
+}
